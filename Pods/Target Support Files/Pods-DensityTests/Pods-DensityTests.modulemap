@@ -1,0 +1,6 @@
+framework module Pods_DensityTests {
+  umbrella header "Pods-DensityTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
