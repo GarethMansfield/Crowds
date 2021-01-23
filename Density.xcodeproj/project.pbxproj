@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D9BBA110B6471E7030E0FA7 /* Pods_Density.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162EAF9776D6B7E70A3BAE57 /* Pods_Density.framework */; };
 		82DCC5F48492EDE83EB007EB /* Pods_Density_DensityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D24127685E25723EA4E0A62 /* Pods_Density_DensityUITests.framework */; };
 		B551CCA425BC9D4B00261B58 /* DensityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551CCA325BC9D4B00261B58 /* DensityApp.swift */; };
 		B551CCA625BC9D4B00261B58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551CCA525BC9D4B00261B58 /* ContentView.swift */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		162EAF9776D6B7E70A3BAE57 /* Pods_Density.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Density.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD57A4835F0C0E4919BCB1E /* Pods_DensityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DensityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D24127685E25723EA4E0A62 /* Pods_Density_DensityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Density_DensityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C22418F19580B6AACBA1F1 /* Pods-DensityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DensityTests.debug.xcconfig"; path = "Target Support Files/Pods-DensityTests/Pods-DensityTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9BBA110B6471E7030E0FA7 /* Pods_Density.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +87,6 @@
 		37B9D010C1FD292627F0C28F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				162EAF9776D6B7E70A3BAE57 /* Pods_Density.framework */,
 				1D24127685E25723EA4E0A62 /* Pods_Density_DensityUITests.framework */,
 				1AD57A4835F0C0E4919BCB1E /* Pods_DensityTests.framework */,
 			);
@@ -167,7 +163,6 @@
 				42C22418F19580B6AACBA1F1 /* Pods-DensityTests.debug.xcconfig */,
 				9CD8888269587E07FA3A561D /* Pods-DensityTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
