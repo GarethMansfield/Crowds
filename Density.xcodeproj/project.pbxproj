@@ -14,6 +14,9 @@
 		B551CCAB25BC9D4B00261B58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B551CCAA25BC9D4B00261B58 /* Preview Assets.xcassets */; };
 		B551CCB625BC9D4B00261B58 /* DensityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551CCB525BC9D4B00261B58 /* DensityTests.swift */; };
 		B551CCC125BC9D4B00261B58 /* DensityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551CCC025BC9D4B00261B58 /* DensityUITests.swift */; };
+		B551CCDB25BCA32B00261B58 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551CCDA25BCA32B00261B58 /* Dashboard.swift */; };
+		B551CCE325BCA42E00261B58 /* Symptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551CCE225BCA42E00261B58 /* Symptoms.swift */; };
+		B551CCE825BCA4A500261B58 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551CCE725BCA4A500261B58 /* Graph.swift */; };
 		D30C520449AC488B3A5B58D3 /* Pods_DensityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD57A4835F0C0E4919BCB1E /* Pods_DensityTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +56,9 @@
 		B551CCBC25BC9D4B00261B58 /* DensityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DensityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B551CCC025BC9D4B00261B58 /* DensityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DensityUITests.swift; sourceTree = "<group>"; };
 		B551CCC225BC9D4B00261B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B551CCDA25BCA32B00261B58 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		B551CCE225BCA42E00261B58 /* Symptoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptoms.swift; sourceTree = "<group>"; };
+		B551CCE725BCA4A500261B58 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		E1DC32DB1429970BA88DCD91 /* Pods-Density.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Density.release.xcconfig"; path = "Target Support Files/Pods-Density/Pods-Density.release.xcconfig"; sourceTree = "<group>"; };
 		F56D590031781F356AE5ABED /* Pods-Density.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Density.debug.xcconfig"; path = "Target Support Files/Pods-Density/Pods-Density.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +126,9 @@
 			children = (
 				B551CCA325BC9D4B00261B58 /* DensityApp.swift */,
 				B551CCA525BC9D4B00261B58 /* ContentView.swift */,
+				B551CCDA25BCA32B00261B58 /* Dashboard.swift */,
+				B551CCE725BCA4A500261B58 /* Graph.swift */,
+				B551CCE225BCA42E00261B58 /* Symptoms.swift */,
 				B551CCA725BC9D4B00261B58 /* Assets.xcassets */,
 				B551CCAC25BC9D4B00261B58 /* Info.plist */,
 				B551CCA925BC9D4B00261B58 /* Preview Content */,
@@ -368,7 +377,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B551CCA625BC9D4B00261B58 /* ContentView.swift in Sources */,
+				B551CCE325BCA42E00261B58 /* Symptoms.swift in Sources */,
+				B551CCDB25BCA32B00261B58 /* Dashboard.swift in Sources */,
 				B551CCA425BC9D4B00261B58 /* DensityApp.swift in Sources */,
+				B551CCE825BCA4A500261B58 /* Graph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
